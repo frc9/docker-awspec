@@ -7,6 +7,7 @@ RUN mkdir -p /opt/awspec
 WORKDIR /opt/awspec
 
 RUN gem install awspec -v $VERSION
+RUN gem install rake
 
 RUN mkdir -p /data
 WORKDIR /data
