@@ -15,4 +15,5 @@ WORKDIR /data
 RUN mkdir -p /root/.aws
 VOLUME /root/.aws
 
-CMD ["awspec"]
+COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
+CMD ["docker-entrypoint.sh"]

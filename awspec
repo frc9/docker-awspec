@@ -16,5 +16,5 @@ docker run --rm -t $(tty &>/dev/null && echo "-i") \
            ${volume_option} \
            -v ~/.aws:/root/.aws \
            -w $VOLUME \
-           --entrypoint "awspec" \
+           --entrypoint "docker-entrypoint.sh" \
            $DOCKER_IMAGE "$@"
