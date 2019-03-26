@@ -1,6 +1,5 @@
 # docker-awspec
-This is the repository of the raniemi/awspec docker image found in Docker Hub
-
+This is the repository of the frc9/awspec docker image found in Docker Hub. Supported version is 1.9.0.
 # Prerequisites
 
 You only need to have `docker` installed to run this `awspec` Docker image and `git` if you wish to clone the project locally.

@@ -2,7 +2,7 @@
 
 set -e
 
-DOCKER_IMAGE_NAME=raniemi/awspec
+DOCKER_IMAGE_NAME=frc9/awspec
 
 : "${VERSION:?Need to set VERSION}"
 
